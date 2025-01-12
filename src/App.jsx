@@ -12,7 +12,15 @@ function App() {
   return (
     <>
       <div>
+        <link
+          rel="stylesheet"
+          href="https://pyscript.net/latest/pyscript.css"
+        />
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+        <py-config></py-config>
+        <py-script>print('Hello, World!')</py-script>
         <WebCamera />
+        <p>hellp</p>
       </div>
     </>
   );
