@@ -8,8 +8,6 @@ import { drawMesh } from "./utilities.jsx";
 import WebCamera from "./FaceDetection/faceDetection.jsx";
 
 function App() {
-  const webcamRef = useRef(null);
-  const canvasRef = useRef(null);
 
   return (
     <>
